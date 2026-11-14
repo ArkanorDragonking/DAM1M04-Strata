@@ -1221,3 +1221,66 @@ footer a:focus-visible {
     text-align: center;
   }
 }
+
+.surfaces .card,
+.card-core,
+.governance-cards > div,
+.FWOA,
+.Cig,
+.Workflows .wf-text,
+.Workflows .pill-orange {
+  transition: transform 0.25s ease, box-shadow 0.25s ease,
+              border-color 0.25s ease, background 0.25s ease, color 0.25s ease;
+}
+
+.surfaces .card:hover,
+.card-core:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(30, 40, 80, 0.12);
+}
+
+.card-atlas:hover  { border-color: #6fcaa6; }
+.card-nexus:hover  { border-color: #6fb0ec; }
+.card-canvas:hover { border-color: #c27fe0; }
+.card-core:hover   { border-color: #c4c4be; }
+
+
+.governance-cards > div:hover {
+  transform: translateY(-6px);
+  border-color: var(--accent);
+  box-shadow: 0 18px 40px rgba(30, 40, 80, 0.10);
+}
+
+.governance-cards > div:hover h3::before {
+  width: 24px;                    
+}
+
+.governance-cards h3::before {
+  transition: width 0.25s ease;
+}
+
+/* ===== 3. Filas de Workflows ===== */
+.Workflows .container > div:hover .wf-text {
+  transform: translateX(8px);
+}
+
+.Workflows .container > div:hover h3 {
+  color: #b8691f;
+}
+
+.Workflows .container > div:hover .pill-orange {
+  background: #f8d9b3;
+  border-color: #eab87c;
+}
+
+.Workflows h3 {
+  transition: color 0.25s ease;
+}
+
+
+.FWOA:hover,
+.Cig:hover {
+  transform: translateY(-3px);
+  border-color: #1f8a4c;
+  box-shadow: 0 12px 28px rgba(31, 138, 76, 0.15);
+}
