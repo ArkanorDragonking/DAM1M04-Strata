@@ -110,7 +110,6 @@ h1, h2, h3 {
   background: #3a3a42;
 }
 
-/* foco visible para teclado */
 .logo:focus-visible,
 .main-nav a:focus-visible,
 .btn-demo:focus-visible {
@@ -411,7 +410,6 @@ h1, h2, h3 {
   background: #fbfbfa;
 }
 
-/* etiqueta con barrita de degradado delante */
 .label-bar {
   display: flex;
   align-items: center;
@@ -453,7 +451,6 @@ h1, h2, h3 {
   color: #26262e;
 }
 
-/* tarjeta con borde de degradado verde → azul */
 .ContainerOperation {
   box-sizing: border-box;
   max-width: 980px;
@@ -604,7 +601,6 @@ h1, h2, h3 {
   color: #9a9ca6;
 }
 
-/* tarjeta con franja de degradado arriba */
 .field-card {
   position: relative;
   overflow: hidden;
@@ -664,4 +660,251 @@ h1, h2, h3 {
 
 @media (max-width: 767px) {
   .From_the_field { padding: 64px 0; }
+}
+
+.Workflows {
+  padding: 96px 0;
+  background: #f8f5ee;
+}
+
+.workflows-label {
+  margin: 0 0 20px;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #6b6d76;
+}
+
+.Workflows h2 {
+  margin: 0 0 28px;
+  font-size: clamp(32px, 5vw, 52px);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: #26262e;
+}
+
+.workflows-lead {
+  max-width: 700px;
+  margin: 0 0 72px;
+  font-size: clamp(18px, 2.2vw, 24px);
+  font-weight: 300;
+  line-height: 1.5;
+  color: #70727c;
+}
+
+.Workflows .container > div {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 16px 48px;
+  padding: 36px 0;
+  border-top: 1px solid #deddd7;
+}
+
+.Workflows .container > div:last-child {
+  border-bottom: 1px solid #deddd7;
+}
+
+.Workflows .pill-orange {
+  flex: 0 0 auto;
+  min-width: 192px;           
+  box-sizing: border-box;
+  margin-top: 4px;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #b8691f;
+  background: #fbe8d2;
+  border-color: #f3cfa3;
+}
+
+.Workflows .pill-orange { min-width: 0; }
+.Workflows .container > div::before { content: none; }
+
+.wf-text {
+  flex: 1 1 360px;
+  max-width: 680px;
+  padding-left: 0;
+}
+
+.Workflows .container > div > .pill {
+  width: auto;
+  margin-right: 0;
+}
+
+.Workflows .container > div > .pill {
+  flex-basis: auto;
+}
+
+.Workflows h3 {
+  margin: 0 0 12px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #26262e;
+}
+
+.Workflows .wf-text p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #70727c;
+}
+
+.In_appeals {
+  padding-left: 48px !important;
+  background: linear-gradient(90deg, #efece4 0%, rgba(239, 236, 228, 0) 55%);
+}
+
+.In_appeals .pill-sub {
+  opacity: 0.8;
+  text-transform: none;
+}
+
+@media (max-width: 767px) {
+  .Workflows { padding: 64px 0; }
+  .In_appeals { padding-left: 20px !important; }
+}
+
+.Atlas {
+  padding: 96px 0;
+  background: #fbfbfa;
+}
+
+.Atlas h2 {
+  max-width: 11em;
+  margin: 0;
+  font-size: clamp(40px, 7vw, 80px);
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  color: #26262e;
+}
+
+.atlas-lead {
+  max-width: 900px;
+  margin: 28px 0 0;
+  font-size: clamp(18px, 2.2vw, 26px);
+  font-weight: 300;
+  line-height: 1.5;
+  color: #70727c;
+}
+
+.atlas-shot {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 64px;
+  border: 1px solid #d9d9d5;
+  border-radius: 16px;
+  box-shadow: 0 24px 60px rgba(30, 40, 80, 0.08);
+}
+
+.atlas-steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px 40px;
+  margin-top: 72px;
+}
+
+.atlas-steps > div {
+  flex: 1 1 220px;
+  padding-top: 24px;
+  border-top: 2px solid #26262e;
+}
+
+.atlas-steps h3 {
+  margin: 0 0 8px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #26262e;
+}
+
+.atlas-steps p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #70727c;
+}
+
+.atlas-note {
+  max-width: 720px;
+  margin: 64px 0 0;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #26262e;
+}
+
+
+.atlas-nodes {
+  margin-top: 56px;
+}
+
+.atlas-nodes-label {
+  margin: 0 0 16px;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #6b6d76;
+}
+
+.atlas-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.FWOA,
+.Cig {
+  flex: 0 1 260px;
+  box-sizing: border-box;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #8fcaa0;
+  border-radius: 14px;
+}
+
+.FWOA h3,
+.Cig h3 {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 0 0 12px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6b6d76;
+}
+
+.FWOA h3::before,
+.Cig h3::before {
+  content: "";
+  flex: 0 0 8px;
+  height: 8px;
+  margin-top: 3px;
+  border-radius: 50%;
+  background: #1f8a4c;
+}
+
+.FWOA p,
+.Cig p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #26262e;
+}
+
+.FWOA .confirmed,
+.Cig .confirmed {
+  margin-top: 16px;
+  font-size: 13px;
+  color: #1f8a4c;
+}
+
+.confirmed::before {
+  content: "✓ ";
+}
+
+@media (max-width: 767px) {
+  .Atlas { padding: 64px 0; }
 }
