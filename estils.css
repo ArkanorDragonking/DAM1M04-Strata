@@ -1284,3 +1284,69 @@ footer a:focus-visible {
   border-color: #1f8a4c;
   box-shadow: 0 12px 28px rgba(31, 138, 76, 0.15);
 }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 32px;
+  padding-right: 32px;
+  box-sizing: border-box;
+}
+
+
+.ContainerOperation,
+.field-text,
+.workflows-lead,
+.atlas-lead,
+.atlas-note {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ContainerOperation {
+  max-width: 100%;          
+}
+
+.hero-product,
+.atlas-shot {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-content {
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1,
+.hero-lead,
+.Operational_value h2,
+.Atlas h2,
+.Governance h2,
+.Workflows h2,
+.Get_started h2,
+.platform-title,
+.workflows-lead,
+.atlas-lead,
+.governance-lead,
+.get-started-lead {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.hero-actions,
+.Get_started .hero-actions {
+  justify-content: center;
+}
+
+.platform-label,
+.workflows-label,
+.get-started-label,
+.Operational_value .label-bar,
+.Atlas .label-bar,
+.Governance .label-bar {
+  justify-content: center;
+}
